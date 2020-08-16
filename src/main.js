@@ -30,11 +30,11 @@ const createSiteMenuTemplate = () => {
       <label for="control__statistic" class="control__label"
         >STATISTICS</label
       >
-    </section>`
+    </section>`;
 };
 
 const createFilterTemplate = () => {
-  return  `<section class="main__filter filter container">
+  return `<section class="main__filter filter container">
       <input
         type="radio"
         id="filter__all"
@@ -92,22 +92,22 @@ const createFilterTemplate = () => {
       <label for="filter__archive" class="filter__label"
         >Archive <span class="filter__archive-count">115</span></label
       >
-    </section>`
+    </section>`;
 };
 
 const createBoardTemplate = () => {
-  return  `<section class="board container">
+  return `<section class="board container">
       <div class="board__filter-list">
         <a href="#" class="board__filter">SORT BY DEFAULT</a>
         <a href="#" class="board__filter">SORT BY DATE up</a>
         <a href="#" class="board__filter">SORT BY DATE down</a>
       </div>
       <div class="board__tasks"></div>
-    </section>`
+    </section>`;
 };
 
 const createTaskTemplate = () => {
-  return  `<article class="card card--black">
+  return `<article class="card card--black">
       <div class="card__form">
         <div class="card__inner">
           <div class="card__control">
@@ -145,11 +145,11 @@ const createTaskTemplate = () => {
           </div>
         </div>
       </div>
-    </article>`
+    </article>`;
 };
 
 const createTaskEditTemplate = () => {
-  return  `<article class="card card--edit card--yellow card--repeat">
+  return `<article class="card card--edit card--yellow card--repeat">
       <form class="card__form" method="get">
         <div class="card__inner">
           <div class="card__color-bar">
@@ -338,12 +338,11 @@ const createTaskEditTemplate = () => {
           </div>
         </div>
       </form>
-    </article>`
+    </article>`;
 };
 
 const createLoadMoreButtonTemplate = () => {
-  return  `<button class="load-more" type="button">load more</button>`
-
+  return `<button class=" load-more " type=" button ">load more</button>`;
 };
 
 const render = (container, template, place) => {
