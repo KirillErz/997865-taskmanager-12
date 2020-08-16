@@ -1,3 +1,5 @@
+"use strict";
+
 const TASK_COUNT = 3;
 
 const createSiteMenuTemplate = () => {
@@ -33,7 +35,7 @@ const createSiteMenuTemplate = () => {
       >
     </section>
   </section>`
-  )
+  );
 
 };
 
@@ -359,11 +361,9 @@ const createLoadMoreButtonTemplate = () => {
   );
 };
 
-
-
 const render = (container, template, place) => {
   container.insertAdjacentHTML(place, template);
-}
+};
 
 const mainElement = document.querySelector(`.main`);
 const siteHeaderElement = mainElement.querySelector(`.main__control`);
