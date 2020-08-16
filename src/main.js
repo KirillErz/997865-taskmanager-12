@@ -3,8 +3,7 @@
 const TASK_COUNT = 3;
 
 const createSiteMenuTemplate = () => {
-  return  ` <section class="main__control control container">
-    <section class="control__btn-wrap">
+  return `<section class="control__btn-wrap">
       <input
         type="radio"
         name="control"
@@ -31,8 +30,7 @@ const createSiteMenuTemplate = () => {
       <label for="control__statistic" class="control__label"
         >STATISTICS</label
       >
-    </section>
-  </section>`
+    </section>`
 };
 
 const createFilterTemplate = () => {
